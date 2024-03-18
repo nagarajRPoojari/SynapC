@@ -3,13 +3,13 @@
 #include <time.h>
 #include <math.h>
 #include <string.h>
-#include "dense_layer.h"
-#include "activation.h"
-#include "ndarray.h"
-#include "num.h"
-#include "metric.h"
-#include "loss.h"
-#include "nn.h"
+#include "header_files/dense_layer.h"
+#include "header_files/activation.h"
+#include "header_files/ndarray.h"
+#include "header_files/num.h"
+#include "header_files/metric.h"
+#include "header_files/loss.h"
+#include "header_files/nn.h"
 
 
 int main(){

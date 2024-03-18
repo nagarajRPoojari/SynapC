@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include "activation.h"
-#include "ndarray.h"
-#include "num.h"
+#include "header_files/activation.h"
+#include "header_files/ndarray.h"
+#include "header_files/num.h"
 
 
 

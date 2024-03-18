@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <math.h>
 #include <string.h>
-#include "activation.h"
-#include "num.h"
-#include "ndarray.h"
-#include "dense_layer.h"
+#include "header_files/activation.h"
+#include "header_files/num.h"
+#include "header_files/ndarray.h"
+#include "header_files/dense_layer.h"
 
 Dense_layer Dense_layer__init__(int neurons){
     Dense_layer d;

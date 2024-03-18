@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "dense_layer.h": "c",
+        "activation.h": "c",
+        "num.h": "c",
+        "nn.h": "c",
+        "ndarray.h": "c",
+        "loss.h": "c",
+        "math.h": "c"
+    }
+}

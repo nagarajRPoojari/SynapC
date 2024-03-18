@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
-#include "ndarray.h"
-#include "num.h"
+#include "header_files/ndarray.h"
+#include "header_files/num.h"
 
 
 

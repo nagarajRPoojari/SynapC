@@ -2,13 +2,13 @@
 #include <stdlib.h>
 #include <math.h>
 #include <time.h>
-#include "activation.h"
-#include "ndarray.h"
-#include "dense_layer.h"
-#include "num.h"
-#include "nn.h"
-#include "metric.h"
-#include "loss.h"
+#include "header_files/activation.h"
+#include "header_files/ndarray.h"
+#include "header_files/dense_layer.h"
+#include "header_files/num.h"
+#include "header_files/nn.h"
+#include "header_files/metric.h"
+#include "header_files/loss.h"
 
 
 Network* Network__init__(int layers_count){

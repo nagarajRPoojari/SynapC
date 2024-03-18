@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "ndarray.h"
-#include<time.h>
+#include <time.h>
 #include <math.h>
-#include "num.h"
+#include "header_files/ndarray.h"
+#include "header_files/num.h"
 
 
-//nd sum ad given axis
+//nd sum add given axis
 void _add(NdArray arr,double *ans,int *index,int index_size,int axis){
     int sum=1;
     for(int i=0;i<arr.ndim;i++) sum*=arr.shape[i];
