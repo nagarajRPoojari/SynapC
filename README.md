@@ -35,9 +35,28 @@ SynapC is a light weight neural network library written in C and provides API fo
 ```
 </p>
 
+## Usage
+```python
+  import synapc
+  model=synapc.init(3) # initalize a FFNN network
+  synapc.add(model,2)  # add dense layers 
+  synapc.add(model,4)
+  synapc.add(model,4)
+  synapc.compile(model,X_train) # compile
+  synapc.train(model,X_train,y_train,40) # train
+```
+
+## Results
+SynapC is twice as fast as scratch implementation using only numpy.
+<div>
+  <img src="https://github.com/nagarajRPoojari/SynapC/assets/116948655/59d15ba9-dd17-4e4e-be1d-fa3363f2b53a" width="300">
+  <img src="https://github.com/nagarajRPoojari/SynapC/assets/116948655/15438148-a6c2-440a-ad5a-6c5ae542a71e" width="300">
+</div>
+
+
 ## Rate and Review
 
-If you find this module helpful, please consider leaving a review and rating on the [PyPI](https://marketplace.visualstudio.com/items?itemName=NagarajPoojari.gluon-ai&ssr=false#review-details).
+If you find this module helpful, please consider leaving a review and rating on the [PyPI](https://pypi.org/project/synapc/).
 
 ## Contributions
 
