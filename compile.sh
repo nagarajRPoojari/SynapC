@@ -1,0 +1,1 @@
+gcc -o synapc.so -shared -fPIC -I/usr/include/python.3.10 src/* -lpython3.10

@@ -1,5 +1,13 @@
+MANIFEST.in
 setup.py
 synap.c
+header_files/activation.h
+header_files/dense_layer.h
+header_files/loss.h
+header_files/metric.h
+header_files/ndarray.h
+header_files/nn.h
+header_files/num.h
 src/activation.c
 src/dense_layer.c
 src/loss.c

@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: synapc
-Version: 0.2
+Version: 0.5
 Summary: A minimalistic neural network library in C
 Home-page: https://github.com/nagarajRPoojari/SynapC
 Author: Nagaraj Poojari

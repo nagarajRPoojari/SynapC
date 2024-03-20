@@ -12,11 +12,20 @@ c_src_files=[
     'synap.c'
 ]
 
-extensions=[Extension('synapc',c_src_files)]
+extensions=[
+    Extension('synapc',['src/activation.c'],include_dirs=['header_files']),
+    Extension('synapc',['src/loss.c',],include_dirs=['header_files']),
+    Extension('synapc',['src/ndarray.c'],include_dirs=['header_files']),
+    Extension('synapc',['src/metric.c'],include_dirs=['header_files']),
+    Extension('synapc',['src/nn.c'],include_dirs=['header_files']),
+    Extension('synapc',['src/num.c'],include_dirs=['header_files']),
+    Extension('synapc',['src/dense_layer.c'],include_dirs=['header_files']),
+    Extension('synapc',['synap.c']),]
+    
 
 setup(
     name='synapc', 
-    version='0.2',  
+    version='0.5',  
     author='Nagaraj Poojari',
     author_email='np137270@email.com',
     description='A minimalistic neural network library in C',
@@ -34,4 +43,5 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
     ],
+    include_package_data=True
 )
