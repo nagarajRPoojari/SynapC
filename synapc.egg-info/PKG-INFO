@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: synapc
+Version: 0.2
+Summary: A minimalistic neural network library in C
+Home-page: https://github.com/nagarajRPoojari/SynapC
+Author: Nagaraj Poojari
+Author-email: np137270@email.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy

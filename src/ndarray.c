@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "header_files/ndarray.h"
+#include "../header_files/ndarray.h"
 
 
 

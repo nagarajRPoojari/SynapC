@@ -1,0 +1,14 @@
+setup.py
+synap.c
+src/activation.c
+src/dense_layer.c
+src/loss.c
+src/metric.c
+src/ndarray.c
+src/nn.c
+src/num.c
+synapc.egg-info/PKG-INFO
+synapc.egg-info/SOURCES.txt
+synapc.egg-info/dependency_links.txt
+synapc.egg-info/requires.txt
+synapc.egg-info/top_level.txt
