@@ -19,7 +19,7 @@
 </p>
 
 
-Latest version: 0.0.5  
+Latest version: 0.5  
 Author:Nagaraj poojari  
 Email: np137270@gmail.com 
 
@@ -30,6 +30,7 @@ SynapC is a light weight neural network library written in C and provides API fo
 
 
 ## Installation
+Make sure gcc is installed in linux , or VS C++ in windows.
 ```bash
   pip install synapc==0.0.5
 ```
